@@ -1,0 +1,183 @@
+
+h4{
+    font-size: 80%;
+    padding: 10px;
+}
+
+p.destaque, section#pizza p.destaque, section#testemunha p.destaque{
+    width: 80%;
+}
+
+hr.linha{
+    width: 40px;
+}
+
+/*----------------------------*/
+/*      HEADER INDEX          */
+/*----------------------------*/
+
+header#header-index div#logo{
+    width: 130px;
+    height: 85px;
+    margin-top: 10px;
+}
+
+nav{
+    width: 95%;
+    height: 100px;
+    margin: 10px auto;
+}
+
+nav ul{
+    margin-top: 40px;
+    height: 40px; 
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    border-radius: 0;
+    font-size: 80%;
+}
+/*--------TIPOGRAFIA--------*/
+
+header div#chamada p{
+    font-size: 80%;
+}
+
+header div#chamada h2{
+    font-size: 200%;
+}
+
+header div#chamada a{
+    font-size: 80%;
+    padding: 15px 15px;
+}
+
+
+
+/*----------------------------*/
+/*  SEÇÃO - SOBRE             */
+/*----------------------------*/
+
+/*----Parte de bottom do header----*/
+
+section#sobre{
+    height: 660px;
+}
+
+div#sebre-mestre-top div#sobre-esquerda h3{
+    font-size: 110%;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 890px) {
+    div#sebre-mestre-top div#sobre-esquerda h3{
+        font-size: 90%;
+        line-height: 1.3;
+    }
+}
+
+p.textos-menores{
+    width: 80%;
+    font-size: 65%;
+    line-height: 1.3;
+}
+
+/*----Parte de bottom do bottom----*/
+
+div#sebre-mestre-bottom{
+    height: 400px;
+}
+
+div#sebre-bottom-esquerda-texto h3{
+    font-size: 120%;
+}
+
+div#sebre-mestre-bottom-esquerda{
+    height: 360px;
+}
+
+div#sebre-mestre-bottom-direita{
+    height: 360px;
+}
+
+div#sebre-mestre-bottom-esquerda p{    
+    font-size: 90%;
+}
+
+@media screen and (max-width: 890px) {
+    div#sebre-bottom-esquerda-texto h3{
+        font-size: 110%;
+    }
+    
+    div#sebre-mestre-bottom-esquerda p{    
+        font-size: 80%;
+    }
+}
+
+/*----------------------------*/
+/*  SEÇÃO - TRANSIÇÃO         */
+/*----------------------------*/
+section#transicao-planos{
+    height: 470px;
+}
+
+section#transicao-planos div#icon1 ion-icon, div#icon2 ion-icon, div#icon3 ion-icon{
+    font-size: 200%;
+    padding: 10px;
+}
+
+section#transicao-planos div#icon1 p, div#icon2 p, div#icon3 p{
+    font-size: 70%;
+}
+
+/*------transicao imagens-------*/
+
+section#transicao-planos div#transicao-bottom{
+    width: 100%;
+    height: 335px;
+    text-align: center;
+
+}
+
+
+section#transicao-planos div#transicao-bottom h4{
+    font-size: 120%;
+}
+
+section#transicao-planos div#imagens{
+    height: 230px;
+}
+
+div#imagens div#imgadv1, div#imagens div#imgadv2, div#imagens  div#imgadv3, div#imagens  div#imgadv4{
+    height: 220px;
+}
+
+
+/*----------------------------*/
+/*  SEÇÃO - PLANOS            */
+/*----------------------------*/
+
+div#planos-janela{
+    width: 95%;
+}
+
+/*----------------------------*/
+/*        FOOTER              */
+/*----------------------------*/
+
+footer div#mapa, footer div#info{
+    width: 45%;
+}
+
+footer div#info{
+    margin-right: 36px;
+}
+
+footer div#redes-sociais ion-icon{
+    width: 10%;
+}
+
+footer div#rodape-decoracao{
+    display: none;
+}

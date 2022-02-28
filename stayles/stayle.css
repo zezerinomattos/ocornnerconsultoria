@@ -1,0 +1,449 @@
+/*
+CORES
+cinza escuro: #2E3740
+cinza mais claro: #5A6773
+bege fraco: #BFA89B
+bege escuro: #A68F86
+preto escuro: #0D0D0D
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------------*/
+/*      HEADER INDEX          */
+/*----------------------------*/
+
+header#header-index{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../imagens/headerbackground.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    border-top: 2px solid #2E3740;
+    position: relative;
+
+    animation-name: header-index;
+    animation-duration: 0.5S;
+    animation-timing-function: ease-out;
+    animation-delay: 0.4s;
+    animation-fill-mode: backwards;
+}
+header#header-index div#logo{
+    background-image:  url(../imagens/LogoAdvogado1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+
+    float: left;
+}
+
+.logoEstatico{
+    display: none;
+}
+
+nav{
+    width: 95%;
+    height: 150px;
+    margin: 10px auto;
+
+    position: fixed; top:0; left:2.5%;z-index:9999
+}
+
+.navEstatico{
+    width: 100%;
+    height: 100px;
+    left: 0;
+    background-color: rgba(247,247,247, 0.98);
+    box-shadow: 0 1px 10px #333;
+
+    transition-duration: 0.8s;
+}
+
+nav ul{
+    float: right;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    margin-top: 70px;
+    height: 40px; 
+}
+
+.menuEstatico{
+    margin-top: 40px;
+}
+
+nav ul#icon-menu-mobile{
+    float: right;
+    display: none;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 100px;
+    font-size: 90%;
+}
+
+.itemEstatico{
+    color: #404040;
+    border-radius: 0;
+    padding: 19px 30px;
+}
+
+nav ul li a:hover{
+    background-color: #A68F86;
+    transition-duration: 0.8s;
+}
+
+
+
+header div#chamada{
+    position: absolute;
+    width: 80%;
+    height: 300px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+
+header div#chamada div#chamada-p{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+
+/*----------------------------*/
+/*  SEÇÃO - SOBRE             */
+/*----------------------------*/
+
+section#sobre{
+    width: 100%;
+    height: 825px;
+
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+section#sobre div#sebre-mestre{
+    width: 100%;
+    height: 100%;
+
+}
+
+div#sebre-mestre div#sebre-mestre-top{
+    width: 100%;
+    height: 250px;
+    background-color: #F8F8F8;
+    padding-top: 40px;
+
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+div#sebre-mestre-top div#sobre-esquerda{
+    width: 40%;
+    height: 70%;
+    border-right: 2px solid #EEF2F1;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+
+div#sebre-mestre-top div#sobre-centro{
+    width: 25%;
+    height: 70%;
+}
+
+div#sebre-mestre-top div#sobre-direita{
+    width: 25%;
+    height: 70%;
+}
+
+/*----Parte de bottom do reader----*/
+
+div#sebre-mestre-bottom{
+    width: 100%;
+    height: 570px;
+    background-color: #484250;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: first baseline;
+
+}
+
+div#sebre-mestre-bottom-esquerda{
+    width: 40%;
+    height: 100vh;
+
+    padding: 40px 10px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+div#sebre-bottom-esquerda-texto{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div#sebre-mestre-bottom-direita{
+    width: 60%;
+    height: 100vh;
+    padding: 40px 20px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: last baseline;
+}
+div#sebre-mestre-bottom-direita-esquerda{
+    width: 40%;
+}
+
+div#sebre-mestre-bottom-direita-direita{
+    width: 60%;
+}
+
+div#sebre-mestre-bottom-direita-esquerda ul{
+    margin-top: 10px;
+}
+
+div#sebre-mestre-bottom-direita-direita ul{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/*----------------------------*/
+/*  SEÇÃO - TRANSIÇÃO       */
+/*----------------------------*/
+
+section#transicao-planos{
+    width: 100%;
+    height: 510px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+section#transicao-planos div#icon1{
+    width: 33.3%;
+    height: 110px;
+    border-right: 2px solid #EEF2F1;
+    text-align: center;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+section#transicao-planos div#icon2{
+    width: 33.3%;
+    height: 110px;
+    border-right: 2px solid #EEF2F1;
+    text-align: center;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+section#transicao-planos div#icon3{
+    width: 33.3%;
+    height: 110px;
+    text-align: center;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/*------transicao imagens-------*/
+
+section#transicao-planos div#transicao-bottom{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+section#transicao-planos div#imagens{
+    width: 100%;
+    height: 350px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div#imagens div#imgadv1{
+    width: 25%;
+    height: 300px;
+    background: url(../imagens/secaotransicao1.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+div#imagens div#imgadv2{
+    width: 25%;
+    height: 300px;
+    background: url(../imagens/secaotransicao2.jpg) no-repeat;
+    background-size: cover;
+}
+
+div#imagens div#imgadv3{
+    width: 25%;
+    height: 300px;
+    background: url(../imagens/secaotransicao3.jpg) no-repeat;
+    background-size: cover;
+}
+
+div#imagens div#imgadv4{
+    width: 25%;
+    height: 300px;
+    background: url(../imagens/secaotransicao4.jpg) no-repeat;
+    background-size: cover;
+}
+
+/*----------------------------*/
+/*  SEÇÃO - PLANOS            */
+/*----------------------------*/
+
+section#plano-principal{
+    width: 100%;
+    padding: 40px 0 80px;
+    text-align: center;
+}
+div#planos-janela{
+    width: 80%;
+    margin: 30px auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div.planos{
+    width: 23.3%;
+    height: 450px;
+    margin: 20px 30px;
+}
+
+div.planos-top{
+    width: 100%;
+    height: 350px;
+    background-color: #f7f7f7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+div.planos-bottom{
+    width: 100%;
+    height: 100px;
+    background-color: #CDBD9B;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 3px #ccc;
+
+    cursor: pointer;
+}
+
+/*----------------------------*/
+/*        FOOTER              */
+/*----------------------------*/
+div#transicao-plano-rodape{
+    width: 100%;
+    height: 50px;
+    background-color: #272B2E;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    
+    padding-top: 36px;
+    padding-left: 36px;
+    border-bottom: 10px solid #404040;
+    background-color: #23272A;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+footer div#mapa{
+    width: 35%;
+    height: 390px;
+
+    box-shadow: 0 3px 10px #404040;
+}
+
+footer div#info{
+    width: 30%;
+    height: 390px;
+    box-shadow: 0 3px 10px #404040;
+    padding-left: 25px;
+}
+
+footer div#info div#redes-sociais{
+    width: 80%;
+    height: 70px;
+   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+div#redes-sociais ion-icon{
+    color: #FFF;
+    height: 100%;
+    width: 20%;
+    margin-top: 160px;
+    cursor: pointer;
+}
+
+div#redes-sociais ion-icon:hover{
+    color: #F2B705;
+    transition-duration: 0.8s;
+}
+
+footer div#rodape-decoracao{
+    width: 350px;
+    height: 360px;
+    margin-top: -120px;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(../imagens/footerdireita.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}

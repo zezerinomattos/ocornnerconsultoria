@@ -1,0 +1,241 @@
+/*
+FONTES
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'PT Serif', serif;
+*/
+
+/*
+CORES
+cinza escuro: #2E3740
+cinza mais claro: #5A6773
+bege fraco: #BFA89B
+bege escuro: #A68F86
+preto escuro: #0D0D0D
+
+*/
+
+*{
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    font-family: 'PT Serif', serif;
+    color: #FFF;
+    
+}
+
+h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 400%;
+    font-weight: 200;
+
+    animation-name: HeaderH1;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+}
+h2{
+    font-size: 150%;
+    font-weight: 200;
+    color: #FFF;
+}
+
+h4{
+    font-size: 110%;
+    padding: 20px;
+
+}
+
+p, li, a{
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+}
+
+p.destaque{
+    font-size: 130%;
+    line-height: 1.8;
+    font-weight: 300;
+    text-align: center;
+    width: 70%;
+}
+
+hr.linha{
+    width: 55px;
+    height: 1px;
+    color: #cacaca;
+    margin-top: 18px;
+    margin-left: -20px;
+}
+
+/*----------------------------*/
+/*  SEÇÃO - HEADER            */
+/*----------------------------*/
+
+header div#header-mestre nav ul a{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 100%;
+    font-weight: 300;
+}
+
+header div#chamada p{
+    color: #FFF;
+    margin-top: 8px;
+    margin-left: 25px;
+
+}
+
+header div#chamada h2{
+    font-size: 250%;
+    line-height: 1.3;
+    margin-top: -4%;
+    margin-left: 60px;
+    text-shadow: 4px 6px 10px #000;
+}
+
+header div#chamada a{
+    font-size: 90%;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 0px;
+    font-weight: 600;
+    background: linear-gradient(rgba(146, 94, 74, 0.8)0, rgba(166,143,134, 0.8)50%, rgba(146, 94, 74, 0.8)100%);
+
+    margin-left: 60px;
+
+}
+
+/*----------------------------*/
+/*  SEÇÃO - SOBRE             */
+/*----------------------------*/
+
+div#sebre-mestre-top div#sobre-esquerda hr{
+    margin-left: 98px;
+    margin-top: 35px;
+}
+
+div#sebre-mestre-top div#sobre-esquerda h3{
+    font-size: 150%;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+div#sebre-mestre-top div#sobre-centro p span.drop{
+    float: left; 
+    font-size: 2.2em;
+    font-family: 'PT Serif', serif;
+    color: #BBB090;
+    line-height: 1;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+p.textos-menores{
+    width: 80%;
+    font-size: 80%;
+    line-height: 1.3;
+    color: #6f6f6f;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/*----Parte de bottom do reader----*/
+
+div#sebre-bottom-esquerda-texto hr{
+    margin-left: 90px;
+}
+
+div#sebre-mestre-bottom-direita-direita hr{
+    width: 70%;
+}
+
+div#sebre-bottom-esquerda-texto h3{
+    margin-left: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+div#sebre-mestre-bottom-esquerda p{
+    width: 40%;     
+    font-size: 110%;
+    text-align: left;
+    margin-left: 166px;
+    color: #C0BC97;
+}
+
+/*----------------------------*/
+/*  SEÇÃO - TRANSIÇÃO       */
+/*----------------------------*/
+
+section#transicao-planos div#icon1 ion-icon, div#icon2 ion-icon, div#icon3 ion-icon{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 100%;
+    font-size: 280%;
+    padding: 20px;
+
+    border-radius: 100%;
+    border: 1px solid #BBB090;
+}
+
+section#transicao-planos div#icon1 p, div#icon2 p, div#icon3 p{
+
+    font-size: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+div#icon2 ion-icon{
+    margin-left: -50px;
+}
+
+/*------transicao imagens-------*/
+
+section#transicao-planos div#transicao-bottom h4{
+    font-size: 150%;
+    color: #000;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/*----------------------------*/
+/*  SEÇÃO - PLANOS            */
+/*----------------------------*/
+
+section#plano-principal h2{
+    color: #000;
+    font-size: 250%;
+}
+
+section#plano-principal h4{
+    color: #591202;
+}
+
+section#plano-principal ul{
+    margin-top: 25px;
+}
+
+section#plano-principal ul li{
+    font-size: 85%;
+    text-align: left;
+    margin-left: 30px;
+    line-height: 2;
+    text-decoration: none;
+}
+
+section#plano-principal div.planos-bottom p{   
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 35px;
+}
