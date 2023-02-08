@@ -1,6 +1,6 @@
 # ocornnerconsultoria
-
-
+<br/>
+Este é u website para uma empresa de consultoria jurídica, o qual atende o cliente no formato desktop como no formato para dispositivos móveis. 
 ### Foi desenvolvido com
 Este projeto foi desenvolvido com a linguagem de marcação de hipertexto HTML, Foi usado o CSS para estilizar e fazer algumas animações com o animate, também foi usado a linguagem de programação JavaScript para fazer as interações e algumas animações com o JQuery. Foi usado a IDE Visual Studio Code.
 
